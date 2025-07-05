@@ -1,0 +1,20 @@
+页面语言：中文，不要推理，直接给我完整html代码。
+请帮我创建一个针对交友认识朋友的落地页。落地页的ui设计要生动立体，瞬间能吸引人 。用户第一眼感觉能眼前一亮，显得专业。另外，同时落地页右侧需要一个WhatsApp icon的图标，固定在页面上下中间位置,WhatsApp的icon图标上有个数字1，类似于个消息一样，页面其他地方多个button按钮，
+方便用户点击按钮，点击后通过onclick=opensite()方法，跳转到WhatsApp的连接，需要一个opensite()的脚本方法 
+
+落地页文案：帮我做个交友社交的落地页。请你组合排版
+文案1：在这个快节奏的时代，孤独感时常萦绕在心头。每天忙碌于工作和生活琐事，却常常感到缺少一个能倾诉的对象。曾几何时，我也梦想着与那个特别的人一起分享生活的点滴，无论是平淡的日常，还是那些难忘的瞬间。
+
+我希望找到一位志同道合的伴侣，一起探索这个世界的美好。一起去看日出日落，分享彼此的梦想和心事，携手走过生活的每一个阶段。无论是欢笑还是泪水，我想与你一同经历。
+
+如果你也在寻找这样一种真挚的连接，请加我微信，让我们在这个喧嚣的世界中找到彼此，共同书写属于我们的故事
+图：
+http://www.ewe94a.online/jiaoy/img/4.jpg
+http://www.ewe94a.online/jiaoy/img/5.jpg
+http://www.ewe94a.online/jiaoy/img/6.jpg
+http://www.ewe94a.online/jiaoy/img/8.jpg 
+http://www.ewe94a.online/jiaoy/img/4.jpg
+http://www.ewe94a.online/jiaoy/img/5.jpg
+http://www.ewe94a.online/jiaoy/img/6.jpg
+http://www.ewe94a.online/jiaoy/img/8.jpg  
+行动号召：添加WhatsApp 和我联系吧

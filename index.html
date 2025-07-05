@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<script>
+ function opensite() {
+            // 替换为您的实际WhatsApp链接
+            window.open('https://lihi.cc/OLySr, '_blank');
+        }
+
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻找真挚的连接 - 交友社交</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#25D366',
+                        secondary: '#128C7E',
+                        accent: '#DCF8C6'
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slow': 'bounce 2s infinite',
+                        'fade-in': 'fadeIn 1s ease-in-out',
+                        'slide-up': 'slideUp 0.8s ease-out'
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(50px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .whatsapp-float {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+            animation: bounce 2s infinite;
+        }
+        .notification-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #ff4444;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .image-hover {
+            transition: all 0.3s ease;
+        }
+        .image-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            .dark-bg { background: #1a1a1a; }
+            .dark-text { color: #e5e5e5; }
+            .dark-card { background: #2d2d2d; }
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .whatsapp-float {
+                right: 15px;
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+    <!-- Hero Section -->
+    <section class="gradient-bg min-h-[35vh] flex items-center justify-center relative overflow-hidden py-6">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="text-center animate-fade-in max-w-4xl mx-auto">
+                <h1 class="text-2xl md:text-4xl font-bold text-white mb-3 text-shadow">
+                   我叫國豪 
+                </h1>
+                <p class="text-base md:text-lg text-white mb-4 leading-relaxed text-shadow">
+                    在这个快节奏的时代，让我们一起探索世界的美好，分享生活的点滴
+                </p>
+                <button onclick="opensite()" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full text-base transform hover:scale-105 transition-all duration-300 shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i>
+                    开始我们的故事
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                
+                <!-- Story Section 1: 孤独的夜晚 -->
+                <div class="flex flex-col lg:flex-row items-center mb-16 animate-slide-up">
+                    <div class="lg:w-1/2 lg:pr-8 mb-6 lg:mb-0">
+                        <!-- Mobile: 2 images in a row, Desktop: 2 images in a column -->
+                        <div class="grid grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-4">
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/1.jpg" alt="独处时光1" class="w-full aspect-square object-cover">
+                            </div>
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/2.jpg" alt="独处时光2" class="w-full aspect-square object-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 lg:pl-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
+                            深夜里的独白 🌙
+                        </h2>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                            你知道吗？每当夜深人静的时候，我总是一个人静静地坐着，望着窗外的星空。那些忙碌的白天过后，孤独感总是如潮水般涌来。我常常想，如果有一个人能陪我一起看这满天繁星，该有多好...
+                        </p>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                            也许你也有过这样的夜晚，也许你也在寻找那个能够倾听你内心声音的人。
+                        </p>
+                        <button onclick="opensite()" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            和我聊聊你的故事
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Story Section 2: 花园里的温柔 -->
+                <div class="flex flex-col lg:flex-row-reverse items-center mb-16 animate-slide-up">
+                    <div class="lg:w-1/2 lg:pl-8 mb-6 lg:mb-0">
+                        <!-- Mobile: 2 images in a row, Desktop: 2 images in a column -->
+                        <div class="grid grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-4">
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/3.jpg" alt="花园时光1" class="w-full aspect-square object-cover">
+                            </div>
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/4.jpg" alt="花园时光2" class="w-full aspect-square object-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 lg:pr-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
+                            午后花园的梦想 🌸
+                        </h2>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                            我喜欢在午后的花园里漫步，手里轻抚着那些娇嫩的花朵。每一朵花都有它的故事，就像每个人心中都有一个关于爱情的美好憧憬。
+                        </p>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                            我梦想着有一天，能有个人和我一起在这样的花园里走过四季，分享生活中每一个温柔的瞬间，一起培育属于我们的爱情之花。
+                        </p>
+                        <button onclick="opensite()" class="bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            一起漫步花园
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Story Section 3: 咖啡馆的思考 -->
+                <div class="flex flex-col lg:flex-row items-center mb-16 animate-slide-up">
+                    <div class="lg:w-1/2 lg:pr-8 mb-6 lg:mb-0">
+                        <!-- Mobile: 2 images in a row, Desktop: 2 images in a column -->
+                        <div class="grid grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-4">
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/5.jpg" alt="咖啡时光1" class="w-full aspect-square object-cover">
+                            </div>
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/6.jpg" alt="咖啡时光2" class="w-full aspect-square object-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 lg:pl-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
+                            咖啡馆的等待 ☕
+                        </h2>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                            我经常一个人坐在这家小咖啡馆里，点一杯拿铁，看着窗外来来往往的人群。有时候我会想象，下一个推门而入的人，会不会就是我一直在等待的那个人？
+                        </p>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                            生活需要一些小确幸，比如和心爱的人一起品味咖啡的香醇，分享彼此心中的小秘密。你愿意成为我咖啡杯旁的那个位置吗？
+                        </p>
+                        <button onclick="opensite()" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            约个咖啡吧
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Story Section 4: 镜中的真实 -->
+                <div class="flex flex-col lg:flex-row-reverse items-center mb-16 animate-slide-up">
+                    <div class="lg:w-1/2 lg:pl-8 mb-6 lg:mb-0">
+                        <!-- Mobile: 2 images in a row, Desktop: 2 images in a column -->
+                        <div class="grid grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-4">
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/7.jpg" alt="真实的我1" class="w-full aspect-square object-cover">
+                            </div>
+                            <div class="image-hover rounded-xl overflow-hidden card-shadow">
+                                <img src="img/8.jpg" alt="真实的我2" class="w-full aspect-square object-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 lg:pr-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
+                            镜中的真实自我 ✨
+                        </h2>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
+                            这就是真实的我，不完美但真诚。我不会伪装自己，因为我相信真正的缘分，是要遇见最真实的彼此。每天早晨对着镜子，我都会告诉自己：今天也要勇敢地去爱。
+                        </p>
+                        <p class="text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                            如果你也在寻找一份不需要伪装的爱情，如果你也想要一个能够接纳你所有小缺点的人，那么请不要犹豫，让我们开始这段美好的相识之旅吧！
+                        </p>
+                        <button onclick="opensite()" class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            遇见真实的彼此
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="text-center bg-gradient-to-br from-pink-50 to-purple-50 dark:from-pink-900 dark:to-purple-900 p-12 rounded-3xl card-shadow">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6">
+                        让我们的故事从这里开始 💕
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8 max-w-3xl mx-auto">
+                        也许你看到这里，心中已经有了一些共鸣。也许你也渴望着有人能够理解你内心的柔软，陪伴你度过每一个平凡而珍贵的日子。
+                    </p>
+                    <p class="text-lg text-primary dark:text-primary font-semibold mb-8">
+                        那就不要再等待了，添加我的WhatsApp，让我们在这个喧嚣的世界中找到彼此的温暖 🌟
+                    </p>
+                    <button onclick="opensite()" class="bg-primary hover:bg-secondary text-white font-bold py-4 px-10 rounded-full text-xl hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                        <i class="fab fa-whatsapp mr-3 text-2xl"></i>
+                        开始我们的故事
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <!-- Call to Action Cards -->
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-gradient-to-br from-pink-100 to-purple-100 dark:from-pink-900 dark:to-purple-900 p-6 rounded-xl card-shadow text-center transform hover:scale-105 transition-all duration-300">
+                        <div class="text-4xl mb-4">💕</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800 dark:text-white">真挚情感</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">寻找那个能与我分享内心世界的人</p>
+                        <button onclick="opensite()" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-secondary transition-colors">
+                            开始聊天
+                        </button>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-900 dark:to-cyan-900 p-6 rounded-xl card-shadow text-center transform hover:scale-105 transition-all duration-300">
+                        <div class="text-4xl mb-4">🌟</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800 dark:text-white">共同成长</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">一起探索世界，分享生活的美好</p>
+                        <button onclick="opensite()" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-secondary transition-colors">
+                            了解更多
+                        </button>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 p-6 rounded-xl card-shadow text-center transform hover:scale-105 transition-all duration-300">
+                        <div class="text-4xl mb-4">🤝</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800 dark:text-white">相伴一生</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">携手走过人生的每一个阶段</p>
+                        <button onclick="opensite()" class="bg-primary text-white px-6 py-2 rounded-full hover:bg-secondary transition-colors">
+                            立即联系
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Final CTA -->
+                <div class="text-center bg-gradient-to-r from-primary to-secondary p-8 rounded-2xl card-shadow">
+                    <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                        不要让缘分错过
+                    </h2>
+                    <p class="text-white text-lg mb-6">
+                        添加WhatsApp 和我联系吧，让我们开始这段美好的旅程
+                    </p>
+                    <button onclick="opensite()" class="bg-white text-primary font-bold py-4 px-8 rounded-full text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        添加WhatsApp联系我
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-300">© 2025 真挚连接. 让爱情不再是奢望</p>
+        </div>
+    </footer>
+
+    <!-- Fixed WhatsApp Button -->
+    <div class="whatsapp-float">
+        <button onclick="opensite()" class="bg-primary hover:bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 relative">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span class="notification-badge">1</span>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+       
+        // Dark mode support
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        // Smooth scrolling and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add animation classes when elements come into view
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'slideUp 0.8s ease-out forwards';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all cards and sections
+            document.querySelectorAll('.card-shadow, .prose').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
